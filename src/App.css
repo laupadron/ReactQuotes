@@ -1,0 +1,65 @@
+*{
+ margin: 0;
+ box-sizing: border-box;
+}
+body{
+ font-family: 'Caveat', cursive;
+ 
+}
+button{
+width: 30px;
+height: 30px;
+ border-radius: 100%;
+ 
+}
+.container-quotes{
+ background-color: antiquewhite;
+ width:100vh;
+ min-height: 30vh;
+ display: flex ;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ 
+ gap:1rem;
+ padding: 0 1rem 0 1rem;
+ overflow: hidden;
+ 
+}
+.App{
+ height: 100vh;
+ display: flex;
+ justify-content:center;
+ align-items:center;
+ 
+ 
+ 
+}
+.container-div{
+ box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+.h3{
+ align-self: flex-end;
+ 
+}
+
+.btn{
+ align-self: flex-end;
+ 
+}
+.btn i{
+ color: antiquewhite;
+}
+button{
+ cursor: pointer;
+ border: none;
+ margin-bottom: 5px;
+}
+ .quotation{
+  display: flex;
+  font-size: 40px;
+  align-self: flex-start;
+  
+  
+ }
+ 
