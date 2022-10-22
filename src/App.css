@@ -26,6 +26,11 @@ height: 30px;
  overflow: hidden;
  
 }
+@media(max-width:480px){
+ .container-quotes{
+  width: 50vh;
+ }
+}
 .App{
  height: 100vh;
  display: flex;
